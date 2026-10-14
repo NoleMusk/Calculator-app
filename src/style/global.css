@@ -1,0 +1,37 @@
+
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+}
+
+main {
+  border: 1px solid black;
+  width: 80%;
+  margin: auto;
+}
+
+.angka {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+main .angka div {
+  border: 1px solid red;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main .angka div p {
+  font-weight: bold;
+  font-size: 50px;
+}
+
